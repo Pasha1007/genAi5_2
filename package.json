@@ -1,0 +1,23 @@
+{
+  "name": "langchain-tutorial-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "simple": "node --env-file=.env simple.mjs",
+    "prompt-template": "node --env-file=.env prompt-template.mjs",
+    "chatbot": "node --env-file=.env chatbot.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.3.32",
+    "@langchain/core": "^0.3.40",
+    "@langchain/google-genai": "^0.1.8",
+    "@langchain/langgraph": "^0.2.46",
+    "@langchain/openai": "^0.4.4",
+    "langchain": "^0.3.19",
+    "uuid": "^11.1.0"
+  }
+}
